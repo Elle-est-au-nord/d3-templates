@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+}
+
+#basic-barchart {
+
+}
+
+.bar:hover {
+  fill: #729fcf;
+}
+
+.axis--x path {
+  display: none;
+}
