@@ -1,5 +1,5 @@
-var w = 960;
-var h = 500;
+var w = 550;
+var h = 400;
 
 // *** EDIT TO CUSTOMISE ***
 var dataFile = "test-data.csv",
