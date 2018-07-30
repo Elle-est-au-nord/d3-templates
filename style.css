@@ -1,5 +1,40 @@
 body {
     font-family: sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+#main {
+    min-height: 80vh;
+}
+header, footer {
+  background-color: rgba(114, 159, 207, 0.6);
+  height: 10vh;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+header h2 {
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+}
+header img {
+    width: 4%;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header a:hover {
+    text-decoration: none;
+    color: rgba(117, 117, 117, 0.6);
+}
+
+@media screen and (max-width: 575px) {
+  #main {
+    display: block;
+  }
 }
 
 .templates {
@@ -12,7 +47,7 @@ body {
 .template {
     padding: 5px;
     flex: 0 0 200px;
-    border: 1.5px solid #ccc;
+    border: 1.8px solid rgba(114, 159, 207, 0.5);
     border-radius: 5px;
 }
 .info {
