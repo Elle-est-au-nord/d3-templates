@@ -1,8 +1,4 @@
-var w = 550;
-var h = 400;
-
-var dataFile = "test-data.csv",
-    xName = "year", // column name for x-axis in the csv
+var xName = "year", // column name for x-axis in the csv
     xAxisLabel = "Years",
     xLabelxPosition = 0, xLabelyPosition = 40,
     yName = "value1", // column name for y-axis in the csv
